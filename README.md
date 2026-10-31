@@ -3,7 +3,7 @@
 # WordCounter
 
 There are a number of applications in which it is useful to know what the most
-common words in a language might be.  The most reliable way to determine this
+common words in a language might be. The most reliable way to determine this
 is to collect a large sample of written works in that language, make a list of
 all the words contained in those works, and count how often each word is seen.
 
