@@ -51,7 +51,7 @@ task reports (dependsOn: ['copyWebPages', 'copyDocs']) {
 build.dependsOn javadoc
 
 /////////// Publication of website to GitHub /////////////
-// gitPublishCopy.dependsOn reports
+gitPublishCopy.dependsOn reports
 gitPublish {
     repoUri = 'git@github.com:ODU-CS350-F26/CS350--lab4-documentation--Abellarr.git'
     branch ='gh-pages'
@@ -60,6 +60,6 @@ gitPublish {
     }
 }
 
-task deployReports (dependsOn: ['reports']) {
+task deployReports (dependsOn: ['reports', 'gitPublishPush']) {
     description = 'Deploys the reports to the gh-pages branch of the repository'
 }
