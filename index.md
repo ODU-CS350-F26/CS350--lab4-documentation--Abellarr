@@ -1,6 +1,6 @@
 # Project Reports
 
-David Ortiz
+Your Name
 
-* [Tests](./tests/test/)
-* [JavaDoc](./javadoc/)
+* [Tests](./reports/tests/test/)
+* [JavaDoc](./reports/javadoc/)
